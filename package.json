@@ -1,0 +1,21 @@
+{
+  "name": "speller_api",
+  "version": "1.0.0",
+  "description": "Test app for Lad company",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "nodemon src/index.ts"
+  },
+  "author": "VladislavR",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^15.12.1",
+    "nodemon": "^2.0.7",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
